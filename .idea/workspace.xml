@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="804989cf-2130-4b05-8d03-3014d675a7fb" name="Changes" comment="Commit inicial con archivos de prueba">
-      <change afterPath="$PROJECT_DIR$/funciones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palabras_extended.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palabras_reduced.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_funciones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordle.py" beforeDir="false" afterPath="$PROJECT_DIR$/wordle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +12,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -68,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646608600654</updated>
       <workItem from="1646608603764" duration="533000" />
-      <workItem from="1646646458692" duration="1255000" />
+      <workItem from="1646646458692" duration="2803000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial con archivos de prueba">
       <created>1646608926743</created>
@@ -100,6 +104,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Commit inicial con archivos de prueba" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/examen_python$wordle.coverage" NAME="wordle Coverage Results" MODIFIED="1646647618357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/examen_python$wordle.coverage" NAME="wordle Coverage Results" MODIFIED="1646648071739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
