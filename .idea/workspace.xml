@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="804989cf-2130-4b05-8d03-3014d675a7fb" name="Changes" comment="Commit inicial con archivos de prueba">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funciones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/palabras_extended.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/palabras_reduced.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_funciones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wordle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +33,31 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wordle.py" />
+  </component>
+  <component name="RunManager">
+    <configuration name="wordle" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="examen-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\itchi\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wordle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -38,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646608600654</updated>
       <workItem from="1646608603764" duration="533000" />
+      <workItem from="1646646458692" duration="1255000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial con archivos de prueba">
       <created>1646608926743</created>
@@ -67,5 +98,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit inicial con archivos de prueba" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit inicial con archivos de prueba" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/examen_python$wordle.coverage" NAME="wordle Coverage Results" MODIFIED="1646647618357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
