@@ -1,4 +1,6 @@
 import random
+import struct
+
 
 def choose_secret():
     """Dado un nombre de fichero, esta función devuelve una palabra aleatoria de este fichero transformada a mayúsculas.
@@ -32,10 +34,12 @@ def compare_words(word,secret):
     same_position = []
     same_letter = []
 
-    for k, v in secret:
-        if v == word[k]:
-            same_letter.append(k)
+    for i in word:
+        if(secret.find(i) != -1):
+            same_letter.append(secret.find(i))
+    
 
+    print(same_letter)
     return same_position, same_letter
 
 def print_word(word, same_letter_position, same_letter):
@@ -47,6 +51,9 @@ def print_word(word, same_letter_position, same_letter):
     Returns:
       transformed: La palabra aplicando las transformaciones. En el caso anterior: "Cam--"
     """
+    transformed = word
+
+
 
 
 def choose_secret_advanced():
@@ -71,8 +78,10 @@ if __name__ == "__main__":
     print("Palabra a adivinar: "+secret)#Debug: esto es para que sepas la palabra que debes adivinar
     for repeticiones in range(0,6):
         word = input("Introduce una nueva palabra: ")
-        same_position, same_letter = compare_words(word,secret)
-        resultado=print_word()
+        word = word.upper()
+        secret = secret.upper()
+        same_position, same_letter = compare_words(word, secret)
+        resultado=print_word(secret,same_position,same_letter)
         print(resultado)
         if word == secret:
             print("HAS GANADO!!")
