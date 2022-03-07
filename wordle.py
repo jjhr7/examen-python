@@ -40,7 +40,7 @@ def compare_words(word,secret):
 
 
     for i in same_letter:
-        if secret[i] == word[i]:
+        if secret[i] == word[i] and i < len(word):
             same_position.append(i)
 
     print(same_letter, same_position)

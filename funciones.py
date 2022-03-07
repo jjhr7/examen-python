@@ -8,10 +8,14 @@ def encontrar_menores(diccionario,letra):
     Returns:
       resultado: ej. ['AUNQUE','ABINAR']
     """
+    #En este caso el error está en la declariación de la lista de palabras resultado, se había hecho dentro el blucle, por lo que cada vez que hacia una
+    #iteración del bucle este declaraba desde 0 la variable, por lo que la palabra que haya podido almacenar el anteriores iteraciones se perderia
+    #para evitar este error se declara la lista antes de realizar el bucle for
+    resultado = []
     for clave in diccionario:
         for palabra in diccionario[clave]:
             if palabra[0] < letra:
-                resultado=[]
+
                 resultado.append(palabra)
     return resultado
 
@@ -33,6 +37,8 @@ def add_client(clients_list,nif,name,address,phone,email):
         'phone': phone,
         'email': email
     }
+
+
 
 def repartir_cartas(cartas_iniciales,repeticiones):
     """Dada una baraja de cartas iniciales y un número de repeticiones, esta función selecciona 5 cartas aleatorias de esta baraja y las mete en un diccionario llamado combinaciones. El proceso se repite tantas veces como repeticiones se indiquen.
