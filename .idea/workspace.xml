@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="804989cf-2130-4b05-8d03-3014d675a7fb" name="Changes" comment="Commit inicial con archivos de prueba">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/funciones.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordle.py" beforeDir="false" afterPath="$PROJECT_DIR$/wordle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646608600654</updated>
       <workItem from="1646608603764" duration="533000" />
-      <workItem from="1646646458692" duration="6789000" />
+      <workItem from="1646646458692" duration="8698000" />
     </task>
     <task id="LOCAL-00001" summary="Commit inicial con archivos de prueba">
       <created>1646608926743</created>
@@ -105,6 +104,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Commit inicial con archivos de prueba" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/examen_python$wordle.coverage" NAME="wordle Coverage Results" MODIFIED="1646653227830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/examen_python$wordle.coverage" NAME="wordle Coverage Results" MODIFIED="1646654843383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

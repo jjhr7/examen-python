@@ -40,8 +40,9 @@ def compare_words(word,secret):
 
 
     for i in same_letter:
-        if secret[i] == word[i] and i < len(word):
-            same_position.append(i)
+        if i < len(word):
+            if secret[i] == word[i]:
+                same_position.append(i)
 
     print(same_letter, same_position)
     return same_position, same_letter
@@ -55,9 +56,22 @@ def print_word(word, same_letter_position, same_letter):
     Returns:
       transformed: La palabra aplicando las transformaciones. En el caso anterior: "Cam--"
     """
-    transformed = word
+    transformed = ""
 
+    for i in word:
+        transformed += "-"
 
+    lista = list(transformed)
+
+    for j in same_letter_position:
+        lista[j] = word[j].upper()
+
+    for k in same_letter:
+        lista[k] += word[k].lower()
+
+    transformed = ''.join(lista)
+
+    return transformed
 
 
 def choose_secret_advanced():
