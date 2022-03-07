@@ -37,9 +37,13 @@ def compare_words(word,secret):
     for i in word:
         if(secret.find(i) != -1):
             same_letter.append(secret.find(i))
-    
 
-    print(same_letter)
+
+    for i in same_letter:
+        if secret[i] == word[i]:
+            same_position.append(i)
+
+    print(same_letter, same_position)
     return same_position, same_letter
 
 def print_word(word, same_letter_position, same_letter):

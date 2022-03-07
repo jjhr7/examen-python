@@ -25,12 +25,13 @@ def add_client(clients_list,nif,name,address,phone,email):
       phone
       email
     """
+    #el error rige en la asignación de los elementos nuevos al diccionario, se está asignando  un diccionario a cada elemento del diccionario, por ello al realizar el assert deuvelve un diccionario y no los datos del diccionario
+    #para resolver este error se ha de corregir la asignación
     clients_list[nif] = {
-        nif: {'name': name,
-              'address': address,
-              'phone': phone,
-              'email': email
-        }
+        'name': name,
+        'address': address,
+        'phone': phone,
+        'email': email
     }
 
 def repartir_cartas(cartas_iniciales,repeticiones):
